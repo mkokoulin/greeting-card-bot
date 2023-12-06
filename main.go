@@ -13,7 +13,7 @@ var styles = map[string]string {
 }
 
 func main() {
-	client := openai.NewClient("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")
+	client := openai.NewClient("")
 	resp, err := client.CreateChatCompletion(
 		context.Background(),
 		openai.ChatCompletionRequest{
